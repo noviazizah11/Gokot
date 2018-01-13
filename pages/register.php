@@ -21,7 +21,7 @@
   </head>
 <body class="hold-transition register-page">
 <div class="register-box">
-<a href="pemesanan.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a>  
+<a href="login.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a>  
   <div class="login-logo">
     <h3 class="box-title">
       <img src="../images/ico.png" style="width: 200px">
@@ -54,7 +54,7 @@
         <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
       </div>
         <!-- /.col -->
-          <a href="pemesanan.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a>
+          <a href="login.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a>
 
     </form>
 
