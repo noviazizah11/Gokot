@@ -28,7 +28,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>A</b>LT</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>Admin</b>LTE</span>
+          <span class="logo-lg"><b>Ngangkot</b></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -55,24 +55,10 @@
                     <img src="../dist/img/avatar2.png" class="img-circle" alt="User Image">
 
                     <p>
-                      Novianti Wydiamulyani Azizah - Web Developer
+                      Novianti Wydiamulyani Azizah <br>
+                      -- Web Developer --
                       <small>Member since Nov. 2012</small>
                     </p>
-                  </li>
-                  <!-- Menu Body -->
-                  <li class="user-body">
-                    <div class="row">
-                      <div class="col-xs-4 text-center">
-                        <a href="#">Followers</a>
-                      </div>
-                      <div class="col-xs-4 text-center">
-                        <a href="#">Sales</a>
-                      </div>
-                      <div class="col-xs-4 text-center">
-                        <a href="#">Friends</a>
-                      </div>
-                    </div>
-                    <!-- /.row -->
                   </li>
                   <!-- Menu Footer-->
                   <li class="user-footer">
@@ -80,7 +66,7 @@
                       <a href="#" class="btn btn-default btn-flat">Profile</a>
                     </div>
                     <div class="pull-right">
-                      <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                      <a href="#" class="btn btn-default btn-flat">Saldo Kopay</a>
                     </div>
                   </li>
                 </ul>
@@ -112,7 +98,7 @@
             <li><a href="kot_pay.html"><i class="fa fa-money"></i> <span>Kot Pay</span></a></li>
             <li><a href="help_centre.html"><i class="fa fa-comments"></i> <span>Help Centre</span></a></li>
             <li><a href="emergency.html"><i class="fa fa-circle-o-notch"></i> <span>Emergency</span></a></li>
-            <li><a href="login.html"><i class="fa fa-sign-out"></i> <span>Logout</span></a></li>
+            <li><a href="../index.php"><i class="fa fa-sign-out"></i> <span>Logout</span></a></li>
           </ul>
         </section>
         <!-- /.sidebar -->
