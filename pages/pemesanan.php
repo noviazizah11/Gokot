@@ -93,7 +93,8 @@
           <ul class="sidebar-menu" data-widget="tree">
             <li class="header">MAIN NAVIGATION</li>
             
-            <li><a href="info_angkot.html"><i class="fa fa-car"></i> <span>Info Angkot</span></a></li>
+            <li><a href="pemesanan.php"><i class="fa fa-car"></i> <span>Pemesanan</span></a></li>
+            <li><a href="info_angkot.html"><i class="fa fa-info"></i> <span>Info Angkot</span></a></li>
             <li><a href="history.html"><i class="fa fa-history"></i> <span>History Transaksi</span></a></li>
             <li><a href="kot_pay.html"><i class="fa fa-money"></i> <span>Kot Pay</span></a></li>
             <li><a href="help_centre.html"><i class="fa fa-comments"></i> <span>Help Centre</span></a></li>
