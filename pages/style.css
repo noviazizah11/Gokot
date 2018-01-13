@@ -1,0 +1,4 @@
+.box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title {
+	display: block !important;
+	text-align: center;
+}
