@@ -66,7 +66,7 @@
                       <a href="#" class="btn btn-default btn-flat">Profile</a>
                     </div>
                     <div class="pull-right">
-                      <a href="#" class="btn btn-default btn-flat">Saldo Kopay</a>
+                      <a href="#" class="btn btn-default btn-flat">Saldo AngPay</a>
                     </div>
                   </li>
                 </ul>
@@ -150,7 +150,7 @@
             <div class="radio">
               <label>
                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                KoPay
+                AngPay
               </label>
             </div>
             <div class="radio">

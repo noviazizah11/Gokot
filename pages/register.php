@@ -30,42 +30,53 @@
   </div>
 
   <div class="register-box-body">
-    <p class="login-box-msg">Daftar Ngangkot</p>
+    <div class="box box-success">
+      <div class="box-body">
+        <p class="login-box-msg">Daftar Ngangkot</p>
 
-    <form action="../../index.html" method="post">
-      <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Nama Lengkap">
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
-      </div>
-      <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Email">
-        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-      </div>
-      <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="No Telepon">
-        <span class="glyphicon glyphicon-phone form-control-feedback"></span>
-      </div>      
-      <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password">
-        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-      </div>
-      <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Retype password">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
-      </div>
-        <!-- /.col -->
-          <a href="login.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a>
+        <form action="../../index.html" method="post">
+          <div class="form-group has-feedback">
+            <input type="text" class="form-control" placeholder="Nama Lengkap">
+            <span class="glyphicon glyphicon-user form-control-feedback"></span>
+          </div>
+          <div class="form-group has-feedback">
+            <input type="text" class="form-control" placeholder="Email">
+            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+          </div>
+          <div class="form-group has-feedback">
+            <input type="text" class="form-control" placeholder="No Telepon">
+            <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+          </div>      
+          <div class="form-group has-feedback">
+            <input type="password" class="form-control" placeholder="Password">
+            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+          </div>
+          <div class="form-group has-feedback">
+            <input type="password" class="form-control" placeholder="Retype password">
+            <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+          </div>
+            <!-- /.col -->
+              <a href="login.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a>
 
-    </form>
+        </form>
 
-    <div class="social-auth-links text-center">
-      <p>- OR -</p>
-      <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Login Dengan Facebook</a>
-      <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Login Dengan
-        Google+</a>
+        <div class="social-auth-links text-center">
+          <p>- OR -</p>
+          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Login Dengan Facebook</a>
+          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Login Dengan
+            Google+</a>
+        </div>
+
+        <a href="login.html" class="text-center">I already have a membership</a>
+      </div>
     </div>
 
-    <a href="login.html" class="text-center">I already have a membership</a>
+    <footer style="margin-top: -15px;">
+      <div class="pull-right">
+        <b>Version</b> 1.0.0 &nbsp;
+      </div>
+      <strong>Copyright &copy; 2018 <a href="#">Ngangkot</a>.</strong>
+    </footer>
   </div>
   <!-- /.form-box -->
 </div>
