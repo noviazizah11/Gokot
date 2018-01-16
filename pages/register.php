@@ -21,8 +21,8 @@
   </head>
 <body class="hold-transition register-page">
 <div class="register-box">
-<a href="login.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a>  
-  <div class="login-logo">
+<a href="index.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>  
+  <div class="register-logo">
     <h3 class="box-title">
       <img src="../images/ico.png" style="width: 200px">
     </h3>
@@ -32,7 +32,7 @@
   <div class="register-box-body">
     <div class="box box-success">
       <div class="box-body">
-        <p class="login-box-msg">Daftar Ngangkot</p>
+        <p class="register-box-msg">Daftar Ngangkot</p>
 
         <form action="../../index.html" method="post">
           <div class="form-group has-feedback">
@@ -62,8 +62,8 @@
 
         <div class="social-auth-links text-center">
           <p>- OR -</p>
-          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Login Dengan Facebook</a>
-          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Login Dengan
+          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Registrasi Dengan Facebook</a>
+          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Registrasi Dengan
             Google+</a>
         </div>
 

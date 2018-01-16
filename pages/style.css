@@ -1,4 +1,28 @@
 .box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title {
 	display: block !important;
-	text-align: center;
+	text-align: initial;
+}
+.icon-angkot {
+	content: url(icon/angkot.png);
+    width: 4%;
+    float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.icon-complete {
+    content: url(icon/complete.png);
+    width: 2%;
+    float: left;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+@media screen and (orientation: portrait) and (max-width: 480px) {
+	.icon-angkot {
+		margin-top: 4px;
+	    width: 8%;
+	}
+	.icon-complete {
+	    margin-top: -2px;
+	    width: 7%;
+	}
 }
