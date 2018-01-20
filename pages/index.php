@@ -48,7 +48,7 @@
                     <div class="inner">
                       <h3><i class="glyphicon glyphicon-user"></i></h3>
                     </div>
-                    <a href="login.html" class="small-box-footer">Login <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="login.php" class="small-box-footer dim">Login <i class="fa fa-arrow-circle-right"></i></a>
                   </div>
               </div>
               <!-- ./col -->
@@ -59,7 +59,7 @@
                     <div class="inner">
                       <h3><i class="ion ion-android-contacts"></i></h3>
                     </div>
-                    <a href="register.php" class="small-box-footer">Register <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="register.php" class="small-box-footer dim">Register <i class="fa fa-arrow-circle-right"></i></a>
                   </div>
               </div>
             </div>
@@ -80,3 +80,10 @@
     <!-- /.login-box -->
   </body>
 </html>
+
+<div id="dim"></div>
+<i id="loading" class="fa fa-spin fa-pulse fa-spinner" aria-hidden="true"></i>    
+
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+<script src="../dist/js/dimpage.js"></script>

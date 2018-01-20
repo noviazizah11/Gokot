@@ -16,12 +16,13 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   </head>
 <body class="hold-transition register-page">
 <div class="register-box">
-<a href="index.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>  
+<a href="index.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>  
   <div class="register-logo">
     <h3 class="box-title">
       <img src="../images/ico.png" style="width: 200px">
@@ -34,7 +35,7 @@
       <div class="box-body">
         <p class="register-box-msg">Daftar Ngangkot</p>
 
-        <form action="../../index.html" method="post">
+        <form action="../../index.php" method="post">
           <div class="form-group has-feedback">
             <input type="text" class="form-control" placeholder="Nama Lengkap">
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
@@ -56,18 +57,18 @@
             <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
           </div>
             <!-- /.col -->
-              <a href="login.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a>
+              <a href="login.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a>
 
         </form>
 
         <div class="social-auth-links text-center">
           <p>- OR -</p>
-          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Registrasi Dengan Facebook</a>
-          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Registrasi Dengan
+          <a href="#" class="dim btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Registrasi Dengan Facebook</a>
+          <a href="#" class="dim btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Registrasi Dengan
             Google+</a>
         </div>
 
-        <a href="login.html" class="text-center">I already have a membership</a>
+        <a href="login.php" class="dim text-center">I already have a membership</a>
       </div>
     </div>
 
@@ -83,19 +84,15 @@
 <!-- /.register-box -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="../../bootstrap/js/bootstrap.min.js"></script>
-<!-- iCheck -->
-<script src="../../plugins/iCheck/icheck.min.js"></script>
-<script>
-  $(function () {
-    $('input').iCheck({
-      checkboxClass: 'icheckbox_square-blue',
-      radioClass: 'iradio_square-blue',
-      increaseArea: '20%' // optional
-    });
-  });
-</script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+<script src="../dist/js/dimpage.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.min.js"></script>
 </body>
 </html>
+
+<div id="dim"></div>
+<i id="loading" class="fa fa-spin fa-pulse fa-spinner" aria-hidden="true"></i>    

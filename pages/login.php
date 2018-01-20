@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 <body class="hold-transition login-page">
 <div class="login-box">
@@ -34,7 +35,7 @@
       <div class="box-body">
         <p class="login-box-msg">Halaman Login</p>
 
-        <form action="../../index2.html" method="post">
+        <form action="../index2.html" method="post">
           <div class="form-group has-feedback">
             <input type="email" class="form-control" placeholder="Email">
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -43,15 +44,17 @@
             <input type="password" class="form-control" placeholder="Password">
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
           </div>
-          <a href="pemesanan.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a>
+          <a href="pemesanan.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class=" dim btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a>
         </form>
 
         <div class="social-auth-links text-center">
           <p>- OR -</p>
-          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Login Dengan Facebook</a>
-          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Login Dengan
+          <a href="#" class=" dim btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Login Dengan Facebook</a>
+          <a href="#" class=" dim btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Login Dengan
             Google+</a>
         </div>
+
+
         <!-- /.social-auth-links -->
       </div>
     </div>
@@ -62,25 +65,22 @@
       </div>
       <strong>Copyright &copy; 2018 <a href="#">Ngangkot</a>.</strong>
     </footer>
-  </div>
+
+<div id="dim"></div>
+<i id="loading" class="fa fa-spin fa-pulse fa-spinner" aria-hidden="true"></i>    
+</div>
   <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="../../bootstrap/js/bootstrap.min.js"></script>
-<!-- iCheck -->
-<script src="../../plugins/iCheck/icheck.min.js"></script>
-<script>
-  $(function () {
-    $('input').iCheck({
-      checkboxClass: 'icheckbox_square-blue',
-      radioClass: 'iradio_square-blue',
-      increaseArea: '20%' // optional
-    });
-  });
-</script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+<script src="../dist/js/dimpage.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.min.js"></script>
+
 </body>
 </html>
