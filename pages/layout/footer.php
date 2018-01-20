@@ -8,8 +8,13 @@
 </div>
 <!-- ./wrapper -->
 
+<div id="dim"></div>
+<i id="loading" class="fa fa-spin fa-pulse fa-spinner" aria-hidden="true"></i>    
+
 <!-- jQuery 3 -->
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+<script src="../dist/js/dimpage.js"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->

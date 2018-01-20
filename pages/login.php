@@ -22,7 +22,7 @@
   </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-<a href="index.html" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>	
+<a href="index.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>	
   <div class="login-logo">
     <h3 class="box-title">
       <img src="../images/ico.png" style="width: 200px">
@@ -35,7 +35,7 @@
       <div class="box-body">
         <p class="login-box-msg">Halaman Login</p>
 
-        <form action="../index2.html" method="post">
+        <form action="../index2.php" method="post">
           <div class="form-group has-feedback">
             <input type="email" class="form-control" placeholder="Email">
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
