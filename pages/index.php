@@ -31,8 +31,8 @@
       <div class="login-box-body">
         <div class="box box-success">
           <div class="box-header with-border">
-            <h3 class="box-title">
-              <img src="../images/edited.jpg" style="width: 200px; height: 120px;">
+            <h3 class="box-title" style="text-align: center">
+              <img src="../images/edited.jpg" style="width: 200px;">
             </h3>
             <div class="media"></div>
             <h4 class="box-title">
