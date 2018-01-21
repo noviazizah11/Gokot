@@ -57,7 +57,7 @@
 
                     <p>
                       Novianti Wydiamulyani Azizah <br>-- Web Developer --
-                      <small>Member since Nov. 2012</small>
+                      <small>Member since Nov. 2018</small>
                     </p>
                   </li>
                   <!-- Menu Footer-->
