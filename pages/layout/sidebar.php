@@ -20,7 +20,7 @@
       <li><a href="info_angkot.php" class="dim"><i class="fa fa-info"></i> <span>Info Angkot</span></a></li>
       <li><a href="history.php" class="dim"><i class="fa fa-history"></i> <span>History Transaksi</span></a></li>
       <li><a href="angpay.php" class="dim"><i class="fa fa-money"></i> <span>AngPay</span></a></li>
-      <li><a href="pemesanan.php" class="dim"><i class="fa fa-comments"></i> <span>Help Centre</span></a></li>
+      <li><a href="help_centre.php" class="dim"><i class="fa fa-comments"></i> <span>Help Centre</span></a></li>
       <li><a href="emergency.php" class="dim"><i class="fa fa-circle-o-notch"></i> <span>Emergency</span></a></li>
       <li><a href="login.php" class="dim"><i class="fa fa-sign-out"></i> <span>Logout</span></a></li>
     </ul>
