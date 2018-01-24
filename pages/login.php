@@ -22,7 +22,7 @@
   </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-<a href="index.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>	
+<a href="index.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>  
   <div class="login-logo">
     <h3 class="box-title">
       <img src="../images/ico.png" style="width: 200px">
@@ -35,26 +35,35 @@
       <div class="box-body">
         <p class="login-box-msg">Halaman Login</p>
 
-        <form action="../index2.php" method="post">
+        <?php
+          if (isset($result_login)) {
+            echo $result_login;
+          }else{
+            echo "";
+          }
+        ?>
+
+        <form class='form' method='post' name="formlogin">
           <div class="form-group has-feedback">
-            <input type="email" class="form-control" placeholder="Email">
+            <input type="text" name='username' class="form-control" placeholder="Username" required>
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
           </div>
           <div class="form-group has-feedback">
-            <input type="password" class="form-control" placeholder="Password">
+            <input type="password" name="password" class="form-control" placeholder="Password" required>
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
           </div>
-          <a href="pemesanan.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class=" dim btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a>
+
+          <button type="submit" name="btn_login" class="btn btn-primary btn-flat" onclick="form_login();" style="width: 100%; font-size: 20px"><i class="fa fa-check"> Login</i></button>
+
+          <!-- <a href="pemesanan.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class=" dim btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a> -->
         </form>
 
         <div class="social-auth-links text-center">
           <p>- OR -</p>
-          <a href="#" class=" dim btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Login Dengan Facebook</a>
-          <a href="#" class=" dim btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Login Dengan
+          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Login Dengan Facebook</a>
+          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Login Dengan
             Google+</a>
         </div>
-
-
         <!-- /.social-auth-links -->
       </div>
     </div>
@@ -66,13 +75,25 @@
       <strong>Copyright &copy; 2018 <a href="#">Ngangkot</a>.</strong>
     </footer>
 
-<div id="dim"></div>
-<i id="loading" class="fa fa-spin fa-pulse fa-spinner" aria-hidden="true"></i>    
-</div>
-  <!-- /.login-box-body -->
+    <div id="dim"></div>
+    <i id="loading" class="fa fa-spin fa-pulse fa-spinner" aria-hidden="true"></i>    
+    </div>
+    <!-- /.login-box-body -->
+
+    <?php
+      if (isset($_POST['btn_login'])) {
+        if ($_POST['username'] == 'novi' && $_POST['password'] == 'rahasia') {
+          $result_login = '<div class="alert alert-success animated fadeInDown" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Login Berhasil !</strong>';
+        }elseif ($_POST['username'] != 'novi' && $_POST['password'] != 'rahasia') {
+          $result_login = '<div class="alert alert-success animated fadeInDown" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Username atau Password yang anda masukkan salah.</strong>';
+        }else{
+          $result_login = '';
+        }
+      }
+    ?>
+
 </div>
 <!-- /.login-box -->
-
 <!-- jQuery 2.2.3 -->
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 

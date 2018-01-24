@@ -35,36 +35,37 @@
       <div class="box-body">
         <p class="register-box-msg">Daftar Ngangkot</p>
 
-        <form action="../../index.php" method="post">
+        <form action="login.php" method="post">
           <div class="form-group has-feedback">
-            <input type="text" class="form-control" placeholder="Nama Lengkap">
+            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
           </div>
           <div class="form-group has-feedback">
-            <input type="text" class="form-control" placeholder="Email">
+            <input type="email" class="form-control" placeholder="Email" required>
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
           </div>
           <div class="form-group has-feedback">
-            <input type="text" class="form-control" placeholder="No Telepon">
+            <input type="number" class="form-control" placeholder="No Telepon" required>
             <span class="glyphicon glyphicon-phone form-control-feedback"></span>
           </div>      
           <div class="form-group has-feedback">
-            <input type="password" class="form-control" placeholder="Password">
+            <input type="password" class="form-control" placeholder="Password" required>
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
           </div>
           <div class="form-group has-feedback">
-            <input type="password" class="form-control" placeholder="Retype password">
+            <input type="password" class="form-control" placeholder="Retype password" required>
             <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
           </div>
             <!-- /.col -->
-              <a href="login.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a>
+          <button type="submit" name="btn_regis" class="btn btn-primary btn-flat" style="width: 100%; font-size: 20px"><i class="fa fa-check"> Registrasi</i></button>
+          <!-- <a href="login.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a> -->
 
         </form>
 
         <div class="social-auth-links text-center">
           <p>- OR -</p>
-          <a href="#" class="dim btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Registrasi Dengan Facebook</a>
-          <a href="#" class="dim btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Registrasi Dengan
+          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Registrasi Dengan Facebook</a>
+          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Registrasi Dengan
             Google+</a>
         </div>
 
