@@ -39,7 +39,8 @@
           if (isset($_POST['btn_login'])) {
             if ($_POST['username'] == 'novi' && $_POST['password'] == 'rahasia') {
               $result_login = '<div class="alert alert-success animated fadeInDown" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Login Berhasil !</strong></div>';
-              header("Location: pemesanan.php");
+              // header("Location: pemesanan.php");
+              echo "<script>window.location.replace('pemesanan.php')</script>";
             }elseif ($_POST['username'] != 'novi' && $_POST['password'] != 'rahasia') {
               $result_login = '<div class="alert alert-danger animated fadeInDown" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Username atau Password yang anda masukkan salah.</strong></div>';
             }else{
