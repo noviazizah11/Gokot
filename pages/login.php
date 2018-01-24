@@ -36,6 +36,17 @@
         <p class="login-box-msg">Halaman Login</p>
 
         <?php
+          if (isset($_POST['btn_login'])) {
+            if ($_POST['username'] == 'novi' && $_POST['password'] == 'rahasia') {
+              $result_login = '<div class="alert alert-success animated fadeInDown" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Login Berhasil !</strong></div>';
+              header("Location: pemesanan.php");
+            }elseif ($_POST['username'] != 'novi' && $_POST['password'] != 'rahasia') {
+              $result_login = '<div class="alert alert-danger animated fadeInDown" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Username atau Password yang anda masukkan salah.</strong></div>';
+            }else{
+              $result_login = '';
+            }
+          }
+          
           if (isset($result_login)) {
             echo $result_login;
           }else{
@@ -43,7 +54,7 @@
           }
         ?>
 
-        <form class='form' method='post' name="formlogin">
+        <form class="form" method='post'>
           <div class="form-group has-feedback">
             <input type="text" name='username' class="form-control" placeholder="Username" required>
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -53,7 +64,7 @@
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
           </div>
 
-          <button type="submit" name="btn_login" class="btn btn-primary btn-flat" onclick="form_login();" style="width: 100%; font-size: 20px"><i class="fa fa-check"> Login</i></button>
+          <button type="submit" name="btn_login" class="btn btn-primary btn-flat" style="width: 100%; font-size: 20px"><i class="fa fa-check"> Login</i></button>
 
           <!-- <a href="pemesanan.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class=" dim btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a> -->
         </form>
@@ -79,18 +90,6 @@
     <i id="loading" class="fa fa-spin fa-pulse fa-spinner" aria-hidden="true"></i>    
     </div>
     <!-- /.login-box-body -->
-
-    <?php
-      if (isset($_POST['btn_login'])) {
-        if ($_POST['username'] == 'novi' && $_POST['password'] == 'rahasia') {
-          $result_login = '<div class="alert alert-success animated fadeInDown" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Login Berhasil !</strong>';
-        }elseif ($_POST['username'] != 'novi' && $_POST['password'] != 'rahasia') {
-          $result_login = '<div class="alert alert-success animated fadeInDown" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Username atau Password yang anda masukkan salah.</strong>';
-        }else{
-          $result_login = '';
-        }
-      }
-    ?>
 
 </div>
 <!-- /.login-box -->
