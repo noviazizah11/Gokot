@@ -66,8 +66,6 @@
           </div>
 
           <button type="submit" name="btn_login" class="btn btn-primary btn-flat" style="width: 100%; font-size: 20px"><i class="fa fa-check"> Login</i></button>
-
-          <!-- <a href="pemesanan.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class=" dim btn btn-primary btn-flat"><i class="fa fa-check"> Login</i></a> -->
         </form>
 
         <div class="social-auth-links text-center">
