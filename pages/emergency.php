@@ -16,6 +16,9 @@
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-primary">
               Kantor Pusat (Soekarno Hatta)
             </button><div class="media"></div>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-warning">
+              Kantor Cabang (Lembang)
+            </button><div class="media"></div>
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-info">
               Kantor Cabang (Pasir Koja)
             </button><div class="media"></div>
@@ -37,6 +40,28 @@
           </div>
           <div class="modal-body">
             <p>(022) 6658894&hellip;</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline">Telepon Sekarang</button>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <div class="modal modal-warning fade" id="modal-warning">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Anda Akan Melakukan Pemanggilan Darurat Ke Nomor Kantor Cabang (Lembang):</h4>
+          </div>
+          <div class="modal-body">
+            <p>(022) 9687531&hellip;</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>

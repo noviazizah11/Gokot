@@ -32,7 +32,7 @@
         <div class="box box-success">
           <div class="box-header with-border">
             <h3 class="box-title" style="text-align: center">
-              <img src="../images/ico.png" style="width: 200px;">
+              <img src="../images/edited.jpg" style="width: 260px;">
             </h3>
             <div class="media"></div>
             <h4 class="box-title">
