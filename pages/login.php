@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ngangkot</title>
-    <link rel="shortcut icon" href="../images/ico.png">
+    <link rel="shortcut icon" href="../images/ico_angkot.png">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -22,19 +22,18 @@
   </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-<a href="index.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>  
-  <div class="login-logo">
-    <h3 class="box-title">
-      <img src="../images/ico.png" style="width: 200px">
-    </h3>
-    <div class="media"></div>
-  </div>
-  <!-- /.login-logo -->
+<a href="index.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a> 
+  <p></p>
   <div class="login-box-body">
     <div class="box box-success">
       <div class="box-body">
-        <p class="login-box-msg">Halaman Login</p>
+        <h2 class="login-box-msg"><strong>Halaman Login</strong></h2>
 
+          <div class="login-logo">
+            <h3 class="box-title">
+              <img src="../images/ico.png" style="width: 200px; margin-top: -25px;">
+            </h3>
+          </div>
         <?php
           if (isset($_POST['btn_login'])) {
             if ($_POST['username'] == 'novi' && $_POST['password'] == 'rahasia') {
