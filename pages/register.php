@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ngangkot</title>
-    <link rel="shortcut icon" href="../images/ico.png">
+    <link rel="shortcut icon" href="../images/ico_angkot.png">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -23,31 +23,24 @@
 <body class="hold-transition register-page">
 <div class="register-box">
 <a href="index.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-home"> Halaman Utama</i></a>  
-  <div class="register-logo">
-    <h3 class="box-title">
-      <img src="../images/ico.png" style="width: 200px">
-    </h3>
-    <div class="media"></div>
-  </div>
+  <p></p>
 
   <div class="register-box-body">
     <div class="box box-success">
       <div class="box-body">
-        <p class="register-box-msg">Daftar Ngangkot</p>
+        <h2 class="register-box-msg"><strong>Daftar Ngangkot</strong></h2>
+
+          <div class="register-logo">
+            <h3 class="box-title">
+              <img src="../images/ico.png" style="width: 200px; margin-top: -25px;">
+            </h3>
+          </div>
 
         <form action="login.php" method="post">
           <div class="form-group has-feedback">
-            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+            <input type="text" class="form-control" placeholder="Username" required>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
           </div>
-          <div class="form-group has-feedback">
-            <input type="email" class="form-control" placeholder="Email" required>
-            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-          </div>
-          <div class="form-group has-feedback">
-            <input type="number" class="form-control" placeholder="No Telepon" required>
-            <span class="glyphicon glyphicon-phone form-control-feedback"></span>
-          </div>      
           <div class="form-group has-feedback">
             <input type="password" class="form-control" placeholder="Password" required>
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
@@ -56,6 +49,18 @@
             <input type="password" class="form-control" placeholder="Retype password" required>
             <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
           </div>
+          <div class="form-group has-feedback">
+            <input type="email" class="form-control" placeholder="Email" required>
+            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+          </div>
+          <div class="form-group has-feedback">
+            <input type="number" class="form-control" placeholder="No Telepon" required>
+            <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+          </div>  
+          <div class="form-group has-feedback">
+            <textarea cols="3" rows="4" class="form-control" placeholder="Alamat"></textarea>
+            <span class="glyphicon glyphicon-home form-control-feedback"></span>
+          </div>    
             <!-- /.col -->
           <button type="submit" name="btn_regis" class="btn btn-primary btn-flat" style="width: 100%; font-size: 20px"><i class="fa fa-check"> Registrasi</i></button>
           <!-- <a href="login.php" style="width: 100%; font-size: 20px" name="search" id="search-btn" class="dim btn btn-primary btn-flat"><i class="fa fa-check"> Registrasi</i></a> -->

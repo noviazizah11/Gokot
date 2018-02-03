@@ -102,27 +102,27 @@
                   </tr>
                   <tr>
                     <td>1.</td>
-                    <td>Caheum - Ciroyom</td>
+                    <td>Caheum - Ciroyom, Dago-Paster, Cimindi-Cibaligo</td>
                     <td>Sudirman</td>
                   </tr>
                   <tr>
                     <td>2.</td>
-                    <td>Riung - Dago</td>
+                    <td>Riung - Dago, Ciberem-Lw Panjang</td>
                     <td>Kemang</td>
                   </tr>
                   <tr>
                     <td>3.</td>
-                    <td>Ciburial - Ciwastra</td>
+                    <td>Ciburial - Ciwastra, Margahayu-Ciwastra, Pasir Koja - Batas Kota</td>
                     <td>Pajajaran</td>
                   </tr>
                   <tr>
                     <td>4.</td>
-                    <td>Caringin - Dago</td>
+                    <td>Caringin - Dago, Dago - Lembang</td>
                     <td>Cicaheum</td>
                   </tr>
                   <tr>
                     <td>5.</td>
-                    <td>BEC - Cimindi</td>
+                    <td>BEC - Cimindi, BIP - Cimindi</td>
                     <td>Dago</td>
                   </tr>
                 </table>

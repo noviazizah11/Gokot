@@ -49,6 +49,7 @@
           </table>
         </div>
       </div>    
+      <button type="button" class="btn btn-primary"><i class="fa fa-money"></i> &nbsp;Top Up</button>
   </div>
   </section>
  </div>
