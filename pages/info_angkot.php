@@ -62,6 +62,46 @@
                     </td>
                     <td><span class="badge bg-green">Tersedia Banyak</span></td>
                   </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td>BEC - Cimindi</td>
+                    <td>
+                      09.00 - 16.00
+                    </td>
+                    <td><span class="badge bg-red">Habis</span></td>
+                  </tr>
+                  <tr>
+                    <td>6.</td>
+                    <td>Cimindi-Cibaligo</td>
+                    <td>
+                      09.00 - 16.00
+                    </td>
+                    <td><span class="badge bg-yellow">Hampir Habis</span></td>
+                  </tr>
+                  <tr>
+                    <td>7.</td>
+                    <td>Ciberem-Lw Panjang</td>
+                    <td>
+                      09.00 - 16.00
+                    </td>
+                    <td><span class="badge bg-light-blue">Tersedia</span></td>
+                  </tr>
+                  <tr>
+                    <td>8.</td>
+                    <td>Pasir Koja - Batas Kota</td>
+                    <td>
+                      09.00 - 16.00
+                    </td>
+                    <td><span class="badge bg-green">Tersedia Banyak</span></td>
+                  </tr>
+                  <tr>
+                    <td>9.</td>
+                    <td>BIP - Cimindi</td>
+                    <td>
+                      09.00 - 16.00
+                    </td>
+                    <td><span class="badge bg-light-blue">Tersedia</span></td>
+                  </tr>
                 </table>
               </div>
               <!-- /.box-body -->
@@ -102,28 +142,48 @@
                   </tr>
                   <tr>
                     <td>1.</td>
-                    <td>Caheum - Ciroyom, Dago-Paster, Cimindi-Cibaligo</td>
-                    <td>Sudirman</td>
+                    <td>Caheum - Ciroyom</td>
+                    <td>Sudirman, Kopo, Pasir Koja</td>
                   </tr>
                   <tr>
                     <td>2.</td>
-                    <td>Riung - Dago, Ciberem-Lw Panjang</td>
-                    <td>Kemang</td>
+                    <td>Riung - Dago</td>
+                    <td>Kemang, Dago Atas, DipatiUkur</td>
                   </tr>
                   <tr>
                     <td>3.</td>
-                    <td>Ciburial - Ciwastra, Margahayu-Ciwastra, Pasir Koja - Batas Kota</td>
-                    <td>Pajajaran</td>
+                    <td>Ciburial - Ciwastra</td>
+                    <td>Pajajaran, Soekarno Hatta, Margahayu, Ciwastra</td>
                   </tr>
                   <tr>
                     <td>4.</td>
-                    <td>Caringin - Dago, Dago - Lembang</td>
-                    <td>Cicaheum</td>
+                    <td>Caringin - Dago</td>
+                    <td>Cicaheum, Batas Kota, Dago</td>
                   </tr>
                   <tr>
                     <td>5.</td>
-                    <td>BEC - Cimindi, BIP - Cimindi</td>
-                    <td>Dago</td>
+                    <td>BEC - Cimindi</td>
+                    <td>Dago, Paster, Gunung Batu, BEC</td>
+                  </tr>
+                  <tr>
+                    <td>6.</td>
+                    <td>Cimindi-Cibaligo</td>
+                    <td>Lw Gajah, Cimindi, Cibaligo</td>
+                  </tr>
+                  <tr>
+                    <td>7.</td>
+                    <td>Ciberem-Lw Panjang</td>
+                    <td>Batas Kota, Pasir Koja, Jamika</td>
+                  </tr>
+                  <tr>
+                    <td>8.</td>
+                    <td>Pasir Koja - Batas Kota</td>
+                    <td>Jamika, Kopo, Pasir Koja, Batas Kota</td>
+                  </tr>
+                  <tr>
+                    <td>9.</td>
+                    <td>BIP - Cimindi</td>
+                    <td>Cimindi, Gunung Batu, Paster, BIP</td>
                   </tr>
                 </table>
               </div>

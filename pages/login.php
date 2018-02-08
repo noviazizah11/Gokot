@@ -66,13 +66,6 @@
 
           <button type="submit" name="btn_login" class="btn btn-primary btn-flat" style="width: 100%; font-size: 20px"><i class="fa fa-check"> Login</i></button>
         </form>
-
-        <div class="social-auth-links text-center">
-          <p>- OR -</p>
-          <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Login Dengan Facebook</a>
-          <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Login Dengan
-            Google+</a>
-        </div>
         <!-- /.social-auth-links -->
       </div>
     </div>
